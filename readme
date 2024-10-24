@@ -1,0 +1,51 @@
+# Node.js CRUD API with EJS and MongoDB
+
+A simple Node.js application demonstrating CRUD operations with **MongoDB** and **EJS templates**. The application allows users to list items, delete and it allows blogs to list blog, edit blog, delete blog them via a confirmation modal, and interact with a MongoDB database.
+
+## Description
+
+This is a Node.js application built to perform basic CRUD operations (Create, Read, Update, Delete) on items stored in a **MongoDB** database. It uses **Express** as the web framework, **Mongoose** to interact with MongoDB, and **EJS** as the templating engine for rendering views. A confirmation popup is used before deleting any items.
+
+## Installation
+
+### Prerequisites
+
+- **Node.js** and **npm** installed.
+- **MongoDB** installed and running, or access to a MongoDB instance (like MongoDB Atlas).
+
+### Steps
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourusername/node-crud-api-ejs.git
+   cd node-crud-api-ejs
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Set up your MongoDB connection:
+
+   - Create a `.env` file and add your MongoDB connection string:
+
+   ```
+   MONGODB_URI=
+   ```
+
+4. Start the application:
+
+   ```bash
+   For Website Application
+   npm run start
+
+   For Admin Dashboard
+   npm run start:admin
+
+   ```
+
+5. Visit `http://localhost:5050` in your browser for website application.
+6. Visit `http://localhost:5051` in your browser for admin dashboard.
